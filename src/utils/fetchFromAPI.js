@@ -6,10 +6,11 @@ const options = {
   params: {
     maxResults: 50,
   },
+	hostname: 'yt-api.p.rapidapi.com',
   headers: {
-    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
-    'X-RapidAPI-Host': 'yt-api.p.rapidapi.com',
-  },
+		'x-rapidapi-key': '764230260dmsh673377cf5d2d57dp1e4899jsna50bf298e8b4',
+		'x-rapidapi-host': 'yt-api.p.rapidapi.com'
+	}
 };
 
 export const fetchFromAPI = async (url) => {
